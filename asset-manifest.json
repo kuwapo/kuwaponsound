@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kuwa/static/css/main.91c8fab1.css",
-    "main.js": "/kuwa/static/js/main.6c43fe57.js",
-    "static/media/icon.jpg": "/kuwa/static/media/icon.ace9edf2f16f0de32409.jpg",
-    "index.html": "/kuwa/index.html",
-    "main.91c8fab1.css.map": "/kuwa/static/css/main.91c8fab1.css.map",
-    "main.6c43fe57.js.map": "/kuwa/static/js/main.6c43fe57.js.map"
+    "main.css": "/kuwaponsound/static/css/main.91c8fab1.css",
+    "main.js": "/kuwaponsound/static/js/main.0fc0cf71.js",
+    "static/media/icon.jpg": "/kuwaponsound/static/media/icon.ace9edf2f16f0de32409.jpg",
+    "index.html": "/kuwaponsound/index.html",
+    "main.91c8fab1.css.map": "/kuwaponsound/static/css/main.91c8fab1.css.map",
+    "main.0fc0cf71.js.map": "/kuwaponsound/static/js/main.0fc0cf71.js.map"
   },
   "entrypoints": [
     "static/css/main.91c8fab1.css",
-    "static/js/main.6c43fe57.js"
+    "static/js/main.0fc0cf71.js"
   ]
 }
