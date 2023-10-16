@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi&display=swap");
+
+.title {
+    margin-top: 30px;
+    font-family: "Kosugi", sans-serif;
+    font-size: 120px;
+    letter-spacing: 10px;
+    color: #f44336;
+    text-align: left;
+
+    .title_text {
+        margin-bottom: 10px;
+    }
+}
+.hr {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    width: 70%;
+}
+.link {
+    margin-top: 50px;
+    font-family: "Kosugi", sans-serif;
+    font-size: 70px;
+    letter-spacing: 5px;
+    color: #323232;
+    text-align: left;
+
+    .link_text {
+        margin-bottom: 20px;
+
+        // フォーカすちゅう、ちょと右にずれるアニメーションする　フォーカス外れれるともとに戻る
+        &:hover {
+            color: #f44336;
+            animation: 0.2s ease-in-out 0s 1 normal none running move;
+        }
+    }
+}
+
+// フォーカスしたときに右にずれるアニメーション
+@keyframes move {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+// 1280px以下のときCSSをいい感じにして
+@media screen and (max-width: 1280px) {
+    .title {
+        font-size: 100px;
+    }
+    .link {
+        font-size: 50px;
+    }
+}
+
+// スマホサイズのときCSSをいい感じにして
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 70px;
+    }
+    .link {
+        font-size: 40px;
+    }
+}

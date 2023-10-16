@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi&display=swap");
+
+// Profileをいい感じのCSSにして
+.profile_main {
+    background-color: #4f709c;
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.profile {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #f0f0f0;
+    font-size: 60px;
+    font-family: "Kosugi", sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #213555;
+}
+
+.profile_text {
+    color: #f0f0f0;
+    font-size: 20px;
+    font-family: "Kosugi", sans-serif;
+    padding-top: 30px;
+    padding-left: 60px;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+
+    &_main {
+        color: rgb(46, 46, 46);
+        font-size: 25px;
+        font-family: "Kosugi", sans-serif;
+        padding-top: 20px;
+        padding-left: 60px;
+        text-align: left;
+        font-style: italic;
+    }
+    &_title {
+        color: #f0f0f0;
+        font-size: 30px;
+        font-family: "Kosugi", sans-serif;
+        padding-top: 20px;
+        padding-left: 60px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .profile_icon {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    &_sub {
+        color: #f0f0f0;
+        font-size: 20px;
+        font-family: "Kosugi", sans-serif;
+        padding-top: 20px;
+        padding-left: 80px;
+        text-align: left;
+    }
+}
+
+.profile_sub {
+    color: #f0f0f0;
+    font-size: 20px;
+    font-family: "Kosugi", sans-serif;
+    padding-top: 20px;
+    padding-left: 80px;
+    text-align: left;
+
+    &_main {
+        color: rgb(46, 46, 46);
+        font-size: 25px;
+        font-family: "Kosugi", sans-serif;
+        padding-top: 30px;
+        padding-left: 60px;
+        text-align: left;
+        font-style: italic;
+    }
+}
+
+.prifile_content {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    // 中央に配置
+    display: block;
+    margin: 0 auto;
+
+    margin-top: 40px;
+    background-color: #f0f0f0;
+    border: none;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Kosugi", sans-serif;
+    color: #213555;
+    // ボタンにカーソルを合わせた時の色
+    &:hover {
+        background-color: #213555;
+        color: #f0f0f0;
+    }
+}
+
+// 1280px以下のとき、いい感じのサイズにして
+@media screen and (max-width: 1280px) {
+    .profile_main {
+        width: 90%;
+    }
+    .profile {
+        font-size: 50px;
+    }
+    .profile_text {
+        font-size: 18px;
+        padding-left: 40px;
+        .profile_icon {
+            width: 150px;
+            height: 150px;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+
+        &_title {
+            font-size: 30px;
+        }
+        &_main {
+            font-size: 20px;
+        }
+    }
+    .profile_sub {
+        font-size: 18px;
+        padding-left: 60px;
+    }
+
+    .profile_text_sub {
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    .button {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+// スマホサイズのときCSSをいい感じにして さっきのはProfileがズレてた
+@media screen and (max-width: 480px) {
+    .profile_main {
+        width: 90%;
+        height: 50%;
+    }
+
+    .prifile_content {
+        display: block;
+    }
+
+    .profile_text {
+        display: block;
+        margin-top: 0px;
+        padding: auto;
+        text-align: center;
+        .profile_icon {
+            width: 200px;
+            height: 200px;
+            margin-left: -20px;
+        }
+        &_title {
+            font-size: 20px;
+            padding-left: 0px;
+            margin-left: -17px;
+            text-align: center;
+        }
+        &_main {
+            font-size: 16px;
+        }
+    }
+
+    .profile_text_sub {
+        font-size: 14px;
+        margin-left: -45px;
+    }
+
+    .button {
+        //margin-bottom: 10px;
+    }
+}

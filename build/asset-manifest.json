@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kuwa/static/css/main.91c8fab1.css",
+    "main.js": "/kuwa/static/js/main.6c43fe57.js",
+    "static/media/icon.jpg": "/kuwa/static/media/icon.ace9edf2f16f0de32409.jpg",
+    "index.html": "/kuwa/index.html",
+    "main.91c8fab1.css.map": "/kuwa/static/css/main.91c8fab1.css.map",
+    "main.6c43fe57.js.map": "/kuwa/static/js/main.6c43fe57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91c8fab1.css",
+    "static/js/main.6c43fe57.js"
+  ]
+}

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi&display=swap");
+
+.info {
+    background-color: #4f709c;
+    width: 90%;
+    margin: 0 auto;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.text {
+    &_title {
+        color: #f0f0f0;
+        font-size: 60px;
+        font-family: "Kosugi", sans-serif;
+        letter-spacing: 2px;
+        text-align: left;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    &_head {
+        color: #213555;
+        font-size: 30px;
+        font-family: "Kosugi", sans-serif;
+        letter-spacing: 2px;
+        text-align: left;
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+
+    &_main {
+        color: #f0f0f0;
+        font-size: 20px;
+        font-family: "Kosugi", sans-serif;
+        padding-top: 30px;
+        padding-left: 60px;
+        text-align: left;
+    }
+
+    &_main_main {
+        color: rgb(46, 46, 46);
+        font-size: 25px;
+        font-family: "Kosugi", sans-serif;
+        padding-top: 30px;
+        padding-left: 60px;
+        text-align: left;
+        font-style: italic;
+    }
+
+    &_main_sub {
+        color: #f0f0f0;
+        font-size: 20px;
+        font-family: "Kosugi", sans-serif;
+        padding-top: 20px;
+        padding-left: 80px;
+        text-align: left;
+    }
+
+    &_main_title {
+        color: #f0f0f0;
+        font-size: 25px;
+        font-family: "Kosugi", sans-serif;
+        padding-top: 40px;
+        padding-left: 30px;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+}
+
+.content {
+    margin-bottom: 80px;
+}
+
+.buttons {
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.button_home {
+    background-color: #f0f0f0;
+    border: none;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Kosugi", sans-serif;
+    color: #213555;
+    // ボタンにカーソルを合わせた時の色
+    &:hover {
+        background-color: #213555;
+        color: #f0f0f0;
+    }
+}
+
+.button_contact {
+    background-color: #f0f0f0;
+    border: none;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Kosugi", sans-serif;
+    color: #213555;
+    // ボタンにカーソルを合わせた時の色
+    &:hover {
+        background-color: #213555;
+        color: #f0f0f0;
+    }
+    margin-left: 30px;
+}
+
+// スマホサイズのときCSSをいい感じにして
+@media screen and (max-width: 480px) {
+    .content {
+        margin-bottom: 0px;
+    }
+    .text {
+        &_title {
+            padding-left: 0;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        &_head {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        &_main {
+            font-size: 13px;
+            padding-left: 40px;
+            width: 80%;
+        }
+
+        &_main_main {
+            font-size: 14px;
+        }
+
+        &_main_sub {
+            font-size: 12px;
+            padding-left: 40px;
+            width: 80%;
+        }
+
+        &_main_title {
+            font-size: 20px;
+        }
+    }
+
+    .buttons {
+        margin-top: 40px;
+    }
+
+    .button_home {
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .button_contact {
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+}
