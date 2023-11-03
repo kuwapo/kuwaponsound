@@ -74,7 +74,7 @@ export const Info = () => {
                         navigate("/");
                     }}
                 >
-                    →Home
+                    →HOME
                 </button>
                 <button
                     className="button_contact"

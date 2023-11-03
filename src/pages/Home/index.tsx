@@ -39,6 +39,14 @@ export const Home = () => {
                 <div className="link_text" onClick={workPageNavigate}>
                     WORK
                 </div>
+                <div
+                    className="link_text"
+                    onClick={() => {
+                        window.location.href = "https://potofu.me/kuwapon";
+                    }}
+                >
+                    LINK
+                </div>
                 <div className="link_text" onClick={contactPageNavigate}>
                     CONTACT
                 </div>
