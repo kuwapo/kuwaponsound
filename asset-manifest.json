@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kuwaponsound/static/css/main.91c8fab1.css",
-    "main.js": "/kuwaponsound/static/js/main.0fc0cf71.js",
-    "static/media/icon.jpg": "/kuwaponsound/static/media/icon.ace9edf2f16f0de32409.jpg",
+    "main.js": "/kuwaponsound/static/js/main.2de8f48e.js",
+    "static/media/icon2.jpg": "/kuwaponsound/static/media/icon2.998e0235e8daf94d0ae0.jpg",
     "index.html": "/kuwaponsound/index.html",
     "main.91c8fab1.css.map": "/kuwaponsound/static/css/main.91c8fab1.css.map",
-    "main.0fc0cf71.js.map": "/kuwaponsound/static/js/main.0fc0cf71.js.map"
+    "main.2de8f48e.js.map": "/kuwaponsound/static/js/main.2de8f48e.js.map"
   },
   "entrypoints": [
     "static/css/main.91c8fab1.css",
-    "static/js/main.0fc0cf71.js"
+    "static/js/main.2de8f48e.js"
   ]
 }
